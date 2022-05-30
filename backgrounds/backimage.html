@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doc</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .header{
+      padding: 2rem;
+      height: 20vh;
+      background-color: #000;
+      background-image: url('https://source.unsplash.com/random');
+      background-repeat: repeat-x;
+      background-position: center center;
+      background-size: 50% 100%;
+      /* just img
+      background-origin: content-box; since content
+      background-origin:padding-box; since padding
+      background-origin: border-box; since border*/
+      
+      /*all background
+       background-clip: content-box;
+        background-clip: padding-box; */
+
+      background-clip: content-box;
+
+
+      background-attachment: fixed; /* scroll is default */
+      
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header h1{
+      color: #d0d0d0;
+      font-family: sans-serif;
+    }
+
+    main{
+      height: 150vh;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1>Example of background-color</h1>
+</div>
+
+<main>oiiiiiiiiiiiiiii</main>
+</body>
+</html>
